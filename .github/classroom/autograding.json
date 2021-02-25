@@ -3,7 +3,7 @@
     {
       "name": "123",
       "setup": "",
-      "run": "timeout 2m LANG=en_US.utf8 python3 main.py",
+      "run": "LANG=en_US.utf8 timeout 2m python3 main.py",
       "input": "123",
       "output": "El número 123 no es múltiplo de 10",
       "comparison": "included",
@@ -13,7 +13,7 @@
     {
       "name": "24560",
       "setup": "",
-      "run": "timeout 1m LANG=en_US.utf8 python3 main.py",
+      "run": "LANG=en_US.utf8 timeout 1m python3 main.py",
       "input": "24560",
       "output": "El número 24560 sí es múltiplo de 10",
       "comparison": "included",
