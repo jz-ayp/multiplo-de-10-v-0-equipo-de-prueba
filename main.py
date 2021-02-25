@@ -1,6 +1,6 @@
 # Entradas
-#numero = int(input("Introduce un número: "))
-numero = int(input())
+numero = int(input("Introduce un número: "))
+#numero = int(input())
 
 # Proceso
 if numero % 10 == 0:
@@ -9,4 +9,4 @@ else:
     resultado = "no"
 
 # Salidas
-print("El número", numero, resultado, "es divisible entre 10")
+print("El número", numero, resultado, "es múltiplo de 10")
