@@ -1,5 +1,6 @@
 # Entradas
-numero = int(input("Introduce un número: "))
+#numero = int(input("Introduce un número: "))
+numero = int(input())
 
 # Proceso
 if numero % 10 == 0:
